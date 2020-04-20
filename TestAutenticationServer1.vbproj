@@ -7,7 +7,16 @@
     <AssemblyName>$safeprojectname$</AssemblyName>
     <ApplicationIcon>asp_net_core_3_1_vb_GDH_icon.ico</ApplicationIcon>
     <StartupObject>Sub Main</StartupObject>
+    <Authors>vb-net.com</Authors>
+    <Company>vb-net.com</Company>
+    <Product>Asp.Net.Core31.VB.MicroServices.TestApi1</Product>
+    <Description>Asp.Net Core 3.1 VB.NET IdentityServer VS2019 ProjectTemplate</Description>
+    <Copyright>MIT</Copyright>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="My Project\serviceDependencies.local.json.user" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="IdentityServer4" Version="3.1.2" />
